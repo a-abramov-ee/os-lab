@@ -1,0 +1,12 @@
+echo > lab1.txt
+echo 456 >> lab1.txt
+echo 789 >> lab1.txt
+echo 123 >> lab1.txt
+sort lab1.txt > lab1_sorted.txt
+mkdir copy
+copy lab1_sorted.txt c:\\Lab\\01Lab
+n
+copy lab1_sorted.txt c:\\Lab\01Lab\copy
+n
+doskey /h > c:\\Lab\\01Lab cmd_history.txt
+doskey /history > cmd_history.txt
