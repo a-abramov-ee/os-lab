@@ -1,0 +1,2 @@
+andrej@andrej:~$ find /bin -mindepth 1 | wc -l 
+163

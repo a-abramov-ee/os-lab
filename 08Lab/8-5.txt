@@ -1,0 +1,12 @@
+andrej@andrej:~$ cat > number.txt << eof
+> 123
+> 178
+> 176
+> 755
+> 713
+> 873
+> eof
+andrej@andrej:~$ grep -e '7[135]' number.txt
+755
+713
+873

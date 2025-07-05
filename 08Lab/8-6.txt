@@ -1,0 +1,14 @@
+andrej@andrej:~$ cat > words.txt << eof
+> starfish
+> starless
+> samscripter
+> stellar
+> microsrar
+> ascender
+> sacrifice
+> scalar
+> eof
+andrej@andrej:~$ grep '^s.*r$' words.txt
+samscripter
+stellar
+scalar

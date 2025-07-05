@@ -1,0 +1,9 @@
+andrej@andrej:~$ cat > emails.txt << eof
+> a.abramov@mail.ee
+> sutd@sutd.ru
+> cafedra_cat@sutd.ru
+> eof
+andrej@andrej:~$ grep -E '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$' emails.txt
+a.abramov@mail.ee
+sutd@sutd.ru
+cafedra_cat@sutd.ru

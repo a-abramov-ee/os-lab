@@ -1,0 +1,2 @@
+andrej@andrej:~$ ps -e | wc -l
+170

@@ -1,0 +1,4 @@
+andrej@andrej:~$ ps aux | grep manager | grep -v grep
+root       123  0.0  0.0      0     0 ?        I<   20:08   0:00 [charger_manager]
+andrej    1112  0.0  1.0  74236 18920 ?        Ssl  20:08   0:00 xfce4-power-manager
+andrej    1213  0.1  1.5 101564 28420 ?        Sl   20:08   0:00 /usr/lib/i386-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/i386-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 8 12582955 power-manager-plugin Модуль менеджера питания Показывает уровень заряда ваших устройств и регулирует яркость экрана
