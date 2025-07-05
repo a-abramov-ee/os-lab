@@ -1,0 +1,4 @@
+andrej@andrej:~$ cd /home/andrej/
+andrej@andrej:~$ chmod 750 user1
+andrej@andrej:~$ cd /home/andrej/user1/
+andrej@andrej:~/user1$ chmod 640 user1_file.txt

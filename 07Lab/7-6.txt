@@ -1,0 +1,3 @@
+andrej@andrej:~$ chmod +t user2
+andrej@andrej:~$ ls -ld user2
+drwxrwxr-t 2 andrej andrej 4096 июл  5 19:03 user2

@@ -1,0 +1,5 @@
+andrej@andrej:~$ cp /home/andrej/file.sh /home/andrej/user1
+andrej@andrej:~$ cd /home/andrej/user1/
+andrej@andrej:~/user1$ chmod g+s /home/andrej/user1/file.sh
+andrej@andrej:~/user1$ ls -l /home/andrej/user1/file.sh
+-rwxrwsr-x 1 andrej andrej 29 июл  5 19:28 /home/andrej/user1/file.sh

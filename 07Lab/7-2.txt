@@ -1,0 +1,3 @@
+andrej@andrej:~$ sudo groupadd group1
+[sudo] пароль для andrej: 
+andrej@andrej:~$ sudo useradd -m -g group1 user1
