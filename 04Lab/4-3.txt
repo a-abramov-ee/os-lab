@@ -1,0 +1,11 @@
+dir $env:WinDir -Attributes !Directory | Where-Object { $_.Length -le 10000 } | Sort-Object Length | Format-Table Name, Length -AutoSize
+
+Name              Length
+----              ------
+setuperr.log           0
+win.ini              167
+system.ini           219
+WindowsUpdate.log    276
+lsasetup.log        1378
+PidVid_List         4080
+DtcInstall.log      4539

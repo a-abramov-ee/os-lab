@@ -1,0 +1,29 @@
+function Get-Factorial {
+    param (
+        [int]$numb
+    )
+    if ($numb -lt 0) {
+        Write-Host "error, number is null"
+        return
+    }
+    $factorial = 1
+    for ($i = 1; $i -le $numb; $i++) {
+        $factorial *= $i
+    }
+    return $factorial
+}
+$numbInput = Read-Host "enter number"
+
+try {
+    $numb = [int]$numbInput
+    if ($numb -lt 0) {
+        Write-Host "error, number < 0"
+    }
+    else {
+        $result = Get-Factorial -numb $numb
+        Write-Host "fact ${numb}: ${result}"
+    }
+}
+catch {
+    Write-Host "error, wrong number"
+}

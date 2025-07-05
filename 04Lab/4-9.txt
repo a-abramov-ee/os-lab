@@ -1,0 +1,12 @@
+dir (Get-ChildItem):
+
+MaxTime MinTime AverageTime
+------- ------- -----------
+     63       1         7,2
+
+
+ps (Get-Process):
+
+MaxTime MinTime AverageTime
+------- ------- -----------
+      5       3         3,3

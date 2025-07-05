@@ -1,0 +1,5 @@
+Name                      : Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz
+Manufacturer              : GenuineIntel
+MaxClockSpeed             : 1190
+NumberOfCores             : 2
+NumberOfLogicalProcessors : 4
