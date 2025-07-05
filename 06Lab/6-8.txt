@@ -1,0 +1,11 @@
+andrej@andrej:~$ df -h
+Файл.система   Размер Использовано  Дост Использовано% Cмонтировано в
+udev             858M            0  858M            0% /dev
+tmpfs            176M         1,3M  175M            1% /run
+/dev/sda1        114G          90G   19G           84% /
+tmpfs            878M            0  878M            0% /dev/shm
+tmpfs            5,0M         4,0K  5,0M            1% /run/lock
+tmpfs            878M            0  878M            0% /sys/fs/cgroup
+/dev/loop1       102M         102M     0          100% /snap/core/16203
+/dev/loop0       100M         100M     0          100% /snap/core/17213
+tmpfs            176M          44K  176M            1% /run/user/1000
